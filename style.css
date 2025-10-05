@@ -1,0 +1,42 @@
+:root {
+  --kfc-red: #dc3545;
+  --kfc-black: #000000;
+  --kfc-dark: #1a1a1a;
+  --kfc-white: #ffffff;
+  --kfc-grey: #2d2d2d;
+}
+body {
+  background-color: var(--kfc-black) !important;
+  color: var(--kfc-white);
+}
+.navbar,
+.bg-black {
+  background-color: var(--kfc-black) !important;
+}
+.text-danger {
+  color: var(--kfc-red) !important;
+}
+.btn-danger .bg-danger {
+  border-color: var(--kfc-red) !important;
+  color: var(--kfc-white) !important;
+}
+.border-secondary,
+.text-white-50 {
+  color: var(--kfc-white) !important;
+  border-color: var(--kfc-grey) !important;
+}
+.card,
+.bg-dark {
+  background-color: var(--kfc-dark) !important;
+}
+.accent-bar {
+  background-color: var(--kfc-red);
+  height: 3px;
+  width: 100px;
+}
+a {
+  color: var(--kfc-white);
+}
+a:hover {
+  color: var(--kfc-red);
+}
